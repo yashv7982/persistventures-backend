@@ -1,0 +1,22 @@
+{
+  "name": "admin-backend",
+  "version": "1.0.0",
+  "description": "Backend for admin page with challenges, completed challenges, founders, subscribers, and admin models",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^6.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "author": "Your Name",
+  "license": "ISC"
+}
